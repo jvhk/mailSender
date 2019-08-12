@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 import smtplib
 
 #Sender email structure
-sender_email = "yourpassword@gmail.com"
+sender_email = "youremail@gmail.com"
 receiver_email = "whowillreceive@hotmail.com"
 message = """\
 Subject: Hi there
@@ -16,7 +16,7 @@ This message is sent from a Python script."""
 ######### Server
 smtp_server = "smtp.gmail.com"
 port = 587  # For starttls without ssl autentication
-sender_email = "yourpassword@gmail.com"
+sender_email = "youremail@gmail.com"
 password = input("Type your password and press enter: ")
 
 # Create a secure SSL context
